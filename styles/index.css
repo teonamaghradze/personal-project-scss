@@ -12,6 +12,7 @@ nav {
   padding-left: 374px;
   padding-right: 376px;
   padding-bottom: 22px;
+  width: 1920px;
   background-color: #000000;
   display: flex;
   justify-content: space-between;
@@ -22,17 +23,45 @@ nav img {
   padding-top: 29px;
 }
 
-ul {
+@media (max-width: 1024px) {
+  nav {
+    width: 1023px;
+    padding-left: 26px;
+    padding-right: 27px;
+    align-items: center;
+    gap: 100px;
+  }
+  nav #menu {
+    display: block;
+    width: 56px;
+  }
+  nav .list {
+    display: none;
+  }
+}
+nav .burger-menu {
+  display: none;
+}
+nav ul {
   display: flex;
   gap: 40px;
 }
-ul li {
+nav ul li {
   list-style: none;
   padding-top: 40px;
 }
-ul li a {
+nav ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 767px) {
+  nav {
+    width: 767px;
+  }
+  nav .nav-logo {
+    width: 91px;
+  }
 }/*# sourceMappingURL=index.css.map */

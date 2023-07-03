@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="39" viewBox="0 0 56 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Menu_Button" data-name="Menu Button" width="56" height="39" transform="translate(686 35)" fill="#3ab6b2"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_Button-2" data-name="Menu Button" transform="translate(-686 -35)">
+    <g id="Menu_Button-3" data-name="Menu Button">
+      <rect id="Menu_Button-4" data-name="Menu Button" width="56" height="39" transform="translate(686 35)" fill="#3ab6b2"/>
+      <g id="Clip" clip-path="url(#clip-path)">
+        <g id="Menu_Button-5" data-name="Menu Button" transform="translate(687.78 36.78)" fill="rgba(58,182,178,0)" stroke="#fff" stroke-linejoin="round" stroke-width="1">
+          <rect width="52.44" height="35.44" stroke="none"/>
+          <rect x="0.5" y="0.5" width="51.44" height="34.44" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Seperator" width="30" height="2" transform="translate(699 48)" fill="#fff"/>
+    <rect id="Seperator-2" data-name="Seperator" width="30" height="2" transform="translate(699 53)" fill="#fff"/>
+    <rect id="Seperator-3" data-name="Seperator" width="30" height="2" transform="translate(699 58)" fill="#fff"/>
+  </g>
+</svg>

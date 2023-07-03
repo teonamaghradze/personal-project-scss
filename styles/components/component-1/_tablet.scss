@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+  nav {
+    width: 1023px;
+    padding-left: 26px;
+    padding-right: 27px;
+    align-items: center;
+    gap: 100px;
+    #menu {
+      display: block;
+      width: 56px;
+    }
+    .list {
+      display: none;
+    }
+  }
+}
