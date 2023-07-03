@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  gap: 40px;
+
+  li {
+    list-style: none;
+    padding-top: 40px;
+    a {
+      text-decoration: none;
+      color: $txt-white;
+      font-size: 14px;
+      font-family: $small-txts-font;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+$small-txts-font: "Open Sans", sans-serif;
+$big-txts-font: "Raleway", sans-serif;
+
+nav {
+  padding-left: 374px;
+  padding-right: 376px;
+  padding-bottom: 22px;
+
+  background-color: $bg-black;
+  display: flex;
+  justify-content: space-between;
+  gap: 306px;
+  img {
+    width: 124px;
+    padding-top: 29px;
+  }
+}
