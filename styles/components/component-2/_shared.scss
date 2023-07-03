@@ -1,0 +1,47 @@
+.header-box {
+  width: 1920px;
+  padding-top: 235px;
+  padding-bottom: 260px;
+  display: flex;
+  background-color: $bg-gray;
+  justify-content: space-between;
+  .header-txt-container {
+    color: $txt-white;
+
+    h1 {
+      font-family: $big-txts-font;
+      font-size: 62px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      p {
+        font-family: $headline-font;
+        font-size: 74px;
+        font-weight: bold;
+        letter-spacing: -4px;
+      }
+    }
+    .header-main-txt {
+      font-family: $big-txts-font;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 24px;
+      font-style: normal;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header-btn {
+      width: 138px;
+      height: 38px;
+
+      border-color: $txt-white;
+      color: $txt-white;
+      border-width: 1px;
+      border-style: solid;
+
+      background: $main-green;
+      margin-left: 319px;
+    }
+  }
+}

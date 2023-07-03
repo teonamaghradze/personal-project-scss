@@ -64,4 +64,47 @@ nav ul li a {
   nav .nav-logo {
     width: 91px;
   }
+}
+.header-box {
+  width: 1920px;
+  padding-top: 235px;
+  padding-bottom: 260px;
+  display: flex;
+  background-color: #666666;
+  justify-content: space-between;
+}
+.header-box .header-txt-container {
+  color: #ffffff;
+}
+.header-box .header-txt-container h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 62px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+.header-box .header-txt-container h1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 74px;
+  font-weight: bold;
+  letter-spacing: -4px;
+}
+.header-box .header-txt-container .header-main-txt {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header-box .header-txt-container .header-btn {
+  width: 138px;
+  height: 38px;
+  border-color: #ffffff;
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  background: #3ab6b2;
+  margin-left: 319px;
 }/*# sourceMappingURL=index.css.map */
