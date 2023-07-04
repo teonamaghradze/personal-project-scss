@@ -1,8 +1,9 @@
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   nav {
-    width: 767px;
+    max-width: 768px;
+    padding-left: 26px;
     .nav-logo {
-      width: 91px;
+      width: 124px;
     }
   }
 }

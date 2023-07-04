@@ -1,3 +1,7 @@
+body .container {
+  max-width: 1920px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +25,11 @@ nav img {
 
 @media screen and (max-width: 1023.5px) {
   nav {
-    width: 1024px;
+    max-width: 768px;
+    min-width: 100%;
     padding-left: 26px;
     padding-right: 27px;
+    padding-bottom: 29px;
     align-items: center;
     gap: 100px;
   }
@@ -53,12 +59,13 @@ nav ul li a {
   font-family: "Open Sans", sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   nav {
-    width: 767px;
+    max-width: 768px;
+    padding-left: 26px;
   }
   nav .nav-logo {
-    width: 91px;
+    width: 124px;
   }
 }
 .header-box {
@@ -124,7 +131,8 @@ nav ul li a {
 
 @media screen and (max-width: 1023.5px) {
   .header-box {
-    width: 1024px;
+    max-width: 768px;
+    min-width: 100%;
     padding-left: 125px;
   }
   .header-box img {
@@ -133,7 +141,7 @@ nav ul li a {
 }
 @media (max-width: 767px) {
   .header-box {
-    width: 767px;
+    min-width: 767px;
   }
 }
 .computer-section {
