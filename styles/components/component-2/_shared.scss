@@ -1,13 +1,8 @@
 .header-box {
   width: 1920px;
-  padding-top: 235px;
-  padding-bottom: 260px;
-  padding-left: 38px;
-  padding-right: 38px;
+  background-color: $bg-black-header;
   display: flex;
-  background-color: $bg-icon;
   justify-content: space-between;
-  // align-items: center;
 
   .header-txt-container {
     color: $txt-white;
@@ -15,11 +10,7 @@
     h1 {
       font-family: $big-txts-font;
       font-size: 62px;
-      font-weight: normal;
-      font-style: normal;
-      text-align: center;
-      margin-left: 23px;
-      letter-spacing: -0.5px;
+
       p {
         font-family: $headline-font;
         font-size: 74px;
@@ -33,14 +24,17 @@
     }
     .header-main-txt {
       font-family: $big-txts-font;
-      font-size: 20px;
-      font-weight: normal;
-      line-height: 24px;
-      font-style: normal;
       text-align: center;
-      margin-bottom: 43px;
-      margin-left: 19px;
-      word-spacing: -1.5px;
+      // margin-bottom: 43px;
+      // margin-left: 19px;
+      // word-spacing: -1.5px;
+
+      font-size: 18px;
+      font-weight: 100;
+      word-spacing: 2.3px;
+      letter-spacing: 0.2px;
+      margin-bottom: 39px;
+      margin-left: 15px;
     }
 
     .header-btn {
@@ -53,7 +47,6 @@
       background: #3ab6b2;
       outline: 3px solid #3ab6b2;
       margin-left: 319px;
-      // color: red;
       letter-spacing: -0.6px;
       word-spacing: 1px;
     }
