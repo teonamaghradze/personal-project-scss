@@ -1,0 +1,18 @@
+@media screen and (max-width: 1023.5px) {
+  .portfolio-section {
+    max-width: 768px;
+    min-width: 100%;
+    .flex-container {
+      gap: 50px;
+    }
+
+    .box {
+      width: 200px !important;
+      height: 200px !important;
+    }
+
+    .box7 {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 1023.5px) {
+  .services-section {
+    max-width: 768px;
+    min-width: 100%;
+
+    .services-container {
+      flex-direction: column;
+    }
+  }
+}
