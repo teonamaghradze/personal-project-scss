@@ -152,7 +152,6 @@ nav ul li a {
   width: 40px;
   height: 1px;
   background-color: #d3d3d3;
-  background-color: red;
 }
 .computer-section .comp-main {
   display: flex;
@@ -240,4 +239,175 @@ nav ul li a {
   .feature img {
     display: none;
   }
+}
+.services-section {
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 313px;
+  background-color: #000000;
+  width: 1920px;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  font-weight: normal;
+  text-align: center;
+  color: #fffefe;
+}
+.services-section .services-container {
+  display: flex;
+  gap: 50px;
+}
+.services-section .services-container .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-section .services-container img {
+  width: 100px;
+}
+.services-section .services-container h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: #3ab6b2;
+}
+.services-section .services-container p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+.services-section .services-icon {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.services-section .services-icon .left-line,
+.services-section .services-icon .right-line {
+  width: 40px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.portfolio-section {
+  width: 1920px;
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  color: #323232;
+}
+.portfolio-section .portfolio-icon {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.portfolio-section .portfolio-icon .left-line,
+.portfolio-section .portfolio-icon .right-line {
+  width: 40px;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+.portfolio-section .flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.portfolio-section .flex-container .box {
+  background-color: #000000;
+  height: 379px;
+}
+.portfolio-section .flex-container .box:hover .content-wrapper {
+  display: flex;
+}
+.portfolio-section .flex-container .box .content-wrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-icons {
+  background-color: #666666;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  padding-left: 321px;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-icons img:first-child {
+  background-color: #3ab6b2;
+  border-radius: 50%;
+  padding: 15px;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-icons img:last-child {
+  border-radius: 50%;
+  border: 1px solid #3ab6b2;
+  padding: 15px;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-footer h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16.9843597412px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.portfolio-section .flex-container .box .content-wrapper .content-footer p {
+  font-family: "Raleway", sans-serif;
+  font-size: 12.9880399704px;
+  font-weight: normal;
+  line-height: 28.9602241516px;
+  font-style: italic;
+  text-align: left;
+  color: #3ab6b2;
+}
+.portfolio-section .flex-container .box-1st-row {
+  display: flex;
+  gap: 5px;
+}
+.portfolio-section .flex-container .box-1st-row .box1 {
+  width: 763px;
+}
+.portfolio-section .flex-container .box-1st-row .box2 {
+  width: 383px;
+}
+.portfolio-section .flex-container .box-1st-row .box3 {
+  width: 763px;
+}
+.portfolio-section .flex-container .box-second-row {
+  display: flex;
+  gap: 5px;
+}
+.portfolio-section .flex-container .box-second-row .box4 {
+  width: 383px;
+}
+.portfolio-section .flex-container .box-second-row .box5 {
+  width: 763px;
+}
+.portfolio-section .flex-container .box-second-row .box6 {
+  width: 373px;
+}
+.portfolio-section .flex-container .box-second-row .box7 {
+  width: 373px;
 }/*# sourceMappingURL=index.css.map */
