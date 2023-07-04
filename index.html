@@ -265,9 +265,14 @@
       </section>
 
       <!-- COMPONENT-6 -->
-      <section>
+      <section class="contact-component">
         <h2>CONTACT</h2>
-        <img src="./assets/component-6/icon-phone.svg" alt="phone icon" />
+
+        <div class="phone-icon">
+          <div class="left-line"></div>
+          <img src="./assets/component-6/icon-phone.svg" alt="phone icon" />
+          <div class="right-line"></div>
+        </div>
 
         <div class="contact-methods-container">
           <div class="contact-method">
@@ -275,12 +280,18 @@
               src="./assets/component-6/icon-address.svg"
               alt="location icon"
             />
-            <p>129 LV High Street, United States</p>
+            <p>
+              129 LV High Street, <br />
+              United States
+            </p>
           </div>
 
           <div class="contact-method">
             <img src="./assets/component-6/icon-mail.svg" alt="location icon" />
-            <p>+01 123-4567-8910 youremail.co</p>
+            <p>
+              +01 123-4567-8910 <br />
+              youremail.co
+            </p>
           </div>
 
           <div class="contact-method">
@@ -288,20 +299,29 @@
               src="./assets/component-6/icon-hands.svg"
               alt="location icon"
             />
-            <p>Take Our support Support@xy.co</p>
+            <p>
+              Take Our support <br />
+              Support@xy.co
+            </p>
           </div>
         </div>
 
         <form>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Message" cols="30" rows="10"></textarea>
-          <button class="form-btn">SEND MESSAGE</button>
+          <div class="name-email">
+            <input class="name" type="text" placeholder="Name" />
+            <input class="email" type="email" placeholder="Email" />
+          </div>
+          <div class="textarea">
+            <input class="subject" type="text" placeholder="subject" />
+
+            <textarea placeholder="Message" cols="30" rows="10"></textarea>
+          </div>
         </form>
+        <button class="form-btn">SEND MESSAGE</button>
       </section>
 
       <!-- COMPONENT 7 -->
-      <section>
+      <footer>
         <img src="./assets/component-7/logo.png" alt="logo of Parry" />
 
         <div class="socials">
@@ -314,7 +334,7 @@
         </div>
 
         <small>Parry © 2016. Design by Y Design Services.</small>
-      </section>
+      </footer>
     </div>
   </body>
 </html>

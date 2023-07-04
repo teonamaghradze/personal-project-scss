@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  width: 1920px;
+  background-color: red;
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 20px;
+      height: 20px;
+
+      border-width: 1px;
+      border-radius: 3px;
+      background-color: #252525;
+    }
+  }
+  small {
+    font-family: $big-txts-font;
+    font-size: 11px;
+    color: #fefefe;
+  }
+}
