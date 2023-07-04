@@ -1,34 +1,43 @@
 .comp-img {
   max-width: 510px;
-  margin-left: 369px;
+  margin-left: 372px;
 }
 
 .feature {
   img {
     background-color: $bg-icon;
+    background-color: red;
     border-radius: 50%;
     padding: 20px;
+    width: 65px;
+    height: 62px;
+  }
+  .location {
+    padding-left: 24px;
   }
 }
 
 .features-container {
   grid-template: 1fr 1fr/ 1fr 1fr;
-  row-gap: 76px;
-  column-gap: 45px;
+  row-gap: 52px;
+  column-gap: 36px;
   .feature {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    // align-items: center;
+    gap: 27px;
     h4 {
       font-family: $big-txts-font;
       font-size: 18px;
       font-weight: 700;
       color: $txt-headline-gray;
+      word-spacing: -3px;
+      margin-bottom: 11px;
     }
     p {
       font-family: $small-txts-font;
       font-size: 13px;
       color: $main-txt-gray;
+      line-height: 1.6;
     }
   }
 }

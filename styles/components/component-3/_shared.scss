@@ -23,7 +23,7 @@
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 96px;
     .left-line,
     .right-line {
       width: 40px;
@@ -34,7 +34,7 @@
 
   .comp-main {
     display: flex;
-    gap: 95px;
+    gap: 92px;
     padding-right: 359px;
 
     .computer-txt {
@@ -43,15 +43,17 @@
         font-size: 31px;
         font-weight: 600;
         color: $txt-headline-gray;
-        margin-top: -9px;
+        margin-top: -5px;
         margin-bottom: 22px;
+        letter-spacing: -1px;
+        word-spacing: 2px;
       }
       > p {
         font-family: $small-txts-font;
         font-size: 14px;
         color: $main-txt-gray;
-        margin-bottom: 43px;
-        line-height: 2;
+        margin-bottom: 48px;
+        line-height: 1.9;
       }
 
       .features-container {

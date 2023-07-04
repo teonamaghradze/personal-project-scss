@@ -5,7 +5,7 @@
 }
 
 nav {
-  padding-left: 374px;
+  padding-left: 375px;
   padding-right: 376px;
   padding-bottom: 22px;
   width: 1920px;
@@ -19,7 +19,7 @@ nav img {
   padding-top: 29px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023.5px) {
   nav {
     width: 1024px;
     padding-left: 26px;
@@ -65,6 +65,8 @@ nav ul li a {
   width: 1920px;
   padding-top: 235px;
   padding-bottom: 260px;
+  padding-left: 38px;
+  padding-right: 38px;
   display: flex;
   background-color: #3b3b3b;
   justify-content: space-between;
@@ -78,12 +80,18 @@ nav ul li a {
   font-weight: normal;
   font-style: normal;
   text-align: center;
+  margin-left: 23px;
+  letter-spacing: -0.5px;
 }
 .header-box .header-txt-container h1 p {
   font-family: "Montserrat", sans-serif;
   font-size: 74px;
   font-weight: bold;
-  letter-spacing: -4px;
+  margin-top: -8px;
+  margin-bottom: 5px;
+  word-spacing: -1px;
+  margin-left: -11px;
+  letter-spacing: -2px;
 }
 .header-box .header-txt-container .header-main-txt {
   font-family: "Raleway", sans-serif;
@@ -92,7 +100,9 @@ nav ul li a {
   line-height: 24px;
   font-style: normal;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 43px;
+  margin-left: 19px;
+  word-spacing: -1.5px;
 }
 .header-box .header-txt-container .header-btn {
   width: 138px;
@@ -102,10 +112,17 @@ nav ul li a {
   border-width: 1px;
   border-style: solid;
   background: #3ab6b2;
+  outline: 3px solid #3ab6b2;
   margin-left: 319px;
+  letter-spacing: -0.6px;
+  word-spacing: 1px;
 }
 
-@media (max-width: 1024px) {
+.header-box img {
+  margin-top: -93px;
+}
+
+@media screen and (max-width: 1023.5px) {
   .header-box {
     width: 1024px;
     padding-left: 125px;
@@ -145,7 +162,7 @@ nav ul li a {
   display: flex;
   gap: 4px;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 96px;
 }
 .computer-section .speak-icon .left-line,
 .computer-section .speak-icon .right-line {
@@ -155,7 +172,7 @@ nav ul li a {
 }
 .computer-section .comp-main {
   display: flex;
-  gap: 95px;
+  gap: 92px;
   padding-right: 359px;
 }
 .computer-section .comp-main .computer-txt h2 {
@@ -163,15 +180,17 @@ nav ul li a {
   font-size: 31px;
   font-weight: 600;
   color: #323232;
-  margin-top: -9px;
+  margin-top: -5px;
   margin-bottom: 22px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
 }
 .computer-section .comp-main .computer-txt > p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #6a6a6a;
-  margin-bottom: 43px;
-  line-height: 2;
+  margin-bottom: 48px;
+  line-height: 1.9;
 }
 .computer-section .comp-main .computer-txt .features-container {
   display: grid;
@@ -184,36 +203,44 @@ nav ul li a {
 
 .comp-img {
   max-width: 510px;
-  margin-left: 369px;
+  margin-left: 372px;
 }
 
 .feature img {
   background-color: #3b3b3b;
+  background-color: red;
   border-radius: 50%;
   padding: 20px;
+  width: 65px;
+  height: 62px;
+}
+.feature .location {
+  padding-left: 24px;
 }
 
 .features-container {
   grid-template: 1fr 1fr/1fr 1fr;
-  row-gap: 76px;
-  -moz-column-gap: 45px;
-       column-gap: 45px;
+  row-gap: 52px;
+  -moz-column-gap: 36px;
+       column-gap: 36px;
 }
 .features-container .feature {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  gap: 27px;
 }
 .features-container .feature h4 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #323232;
+  word-spacing: -3px;
+  margin-bottom: 11px;
 }
 .features-container .feature p {
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   color: #6a6a6a;
+  line-height: 1.6;
 }
 
 @media (max-width: 1024px) {
