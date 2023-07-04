@@ -1,0 +1,34 @@
+.comp-img {
+  max-width: 510px;
+  margin-left: 369px;
+}
+
+.feature {
+  img {
+    background-color: $bg-icon;
+    border-radius: 50%;
+    padding: 20px;
+  }
+}
+
+.features-container {
+  grid-template: 1fr 1fr/ 1fr 1fr;
+  row-gap: 76px;
+  column-gap: 45px;
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h4 {
+      font-family: $big-txts-font;
+      font-size: 18px;
+      font-weight: 700;
+      color: $txt-headline-gray;
+    }
+    p {
+      font-family: $small-txts-font;
+      font-size: 13px;
+      color: $main-txt-gray;
+    }
+  }
+}

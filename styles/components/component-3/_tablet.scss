@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  .computer-section {
+    width: 1024px;
+  }
+  #black-img {
+    display: block;
+    // width: 1024px;
+  }
+
+  .features-container {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+  }
+  .comp-main {
+    flex-direction: column;
+    margin-right: -359px;
+  }
+  .comp-img {
+    display: none;
+  }
+
+  .feature {
+    h4 {
+      display: none;
+    }
+    img {
+      display: none;
+    }
+  }
+}
