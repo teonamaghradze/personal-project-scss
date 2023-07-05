@@ -2,7 +2,8 @@
   .computer-section {
     max-width: 768px;
     min-width: 100%;
-    h2 {
+    padding-bottom: 49px;
+    > h2 {
       margin-top: -40px;
       font-size: 29px;
     }
@@ -10,72 +11,79 @@
     .speak-icon {
       margin-bottom: 55px;
     }
-  }
 
-  .features-container {
-    grid-template: 1fr 1fr 1fr 1fr / 1fr;
-  }
-  .comp-main {
-    flex-direction: column;
-    padding-right: 0 !important;
-
-    #black-img {
-      display: block;
-      margin: 0 30px;
-      // width: 1024px;
-    }
-    .comp-img {
-      display: none;
-    }
-
-    .computer-txt {
-      h2 {
-        font-size: 25px !important;
-        margin-left: 28px !important;
-        margin-top: -62px !important;
-        margin-bottom: 26px !important;
-      }
-
-      .tablet-txt {
+    .comp-main {
+      flex-direction: column;
+      padding: 0;
+      gap: 35px;
+      .black-image {
         display: block;
-        margin-left: 30px;
-        margin-right: 17px;
-        font-size: 13px !important;
+        margin-left: 24px;
+        margin-right: 26px;
       }
-      .desktop-txt {
+      .comp-img {
         display: none;
       }
+      .computer-txt {
+        h2 {
+          font-size: 25px;
+          margin-left: 25px;
+          margin-bottom: 36px;
+        }
 
-      .features-container-desktop {
-        display: none !important;
-      }
-      .features-container-tablet {
-        display: block !important;
-        margin-left: 31px;
+        .desktop-txt {
+          display: none;
+        }
+        .tablet-txt {
+          display: block;
+          margin-left: 24px;
+          font-size: 13px;
+          line-height: 1.8;
+          margin-bottom: 30px;
+        }
+        .features-container-desktop,
+        .features-container-mobile {
+          display: none;
+        }
 
-        .features-flex-tablet {
+        .features-container-tablet {
           display: flex;
-          align-items: center;
-          gap: 20px;
-          margin-bottom: 20px;
-        }
-        .feature-tablet-btn {
-          width: 138px;
-          height: 42px;
-          background: #3ab6b2;
-          border: none;
-          color: #fff;
+          flex-direction: column;
+          gap: 15px;
+          margin: 25px;
+
+          .features-flex-tablet {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            > p {
+              font-family: $small-txts-font;
+              font-size: 13px;
+              // line-height: 23px;
+              color: $list-font-color;
+              margin-top: 6px;
+              line-height: 22px;
+              max-width: 520px;
+            }
+
+            > img {
+              margin-bottom: 15px;
+            }
+          }
+          .feature-tablet-btn {
+            width: 138px;
+            height: 42px;
+            background: $main-green;
+            border: none;
+            color: $txt-white;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 12.5px;
+            padding-right: 5px;
+          }
         }
       }
-    }
-  }
-
-  .feature {
-    h4 {
-      display: none;
-    }
-    img {
-      display: none;
     }
   }
 }

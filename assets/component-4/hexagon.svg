@@ -1,0 +1,11 @@
+<svg id="Polygon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.516" height="144.374" viewBox="0 0 124.516 144.374">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Polygon_" data-name="Polygon " d="M521,2163.185l-62.258-36.093V2054.9L521,2018.811l62.258,36.093v72.187Z" fill="#3ab6b2"/>
+    </clipPath>
+  </defs>
+  <path id="Polygon_2" data-name="Polygon " d="M521,2163.185l-62.258-36.093V2054.9L521,2018.811l62.258,36.093v72.187Z" transform="translate(-458.742 -2018.811)" fill="#3ab6b2"/>
+  <g id="Clip" transform="translate(-458.742 -2018.811)" clip-path="url(#clip-path)">
+    <path id="Polygon_Hover" data-name="Polygon Hover" d="M521.5,2157l-56.507-33v-66l56.507-33,56.507,33v66Z" fill="rgba(0,178,202,0)"/>
+  </g>
+</svg>

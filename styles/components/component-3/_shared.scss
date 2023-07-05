@@ -1,21 +1,13 @@
 .computer-section {
   width: 1920px;
-
-  .black-image {
-    display: none;
-  }
-  width: 1920px;
-  padding-top: 112px;
-  padding-bottom: 120px;
+  padding-top: 113px;
+  padding-bottom: 126px;
   display: flex;
   flex-direction: column;
   align-items: center;
   > h2 {
     font-family: $big-txts-font;
-    font-size: 31px;
     font-weight: 700;
-    font-style: normal;
-    text-align: center;
     margin-bottom: 13px;
     span {
       color: #3ab6b2;
@@ -25,7 +17,6 @@
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-bottom: 96px;
     .left-line,
     .right-line {
       width: 40px;
@@ -36,26 +27,17 @@
 
   .comp-main {
     display: flex;
-    gap: 92px;
-    padding-right: 359px;
 
     .computer-txt {
       h2 {
         font-family: $big-txts-font;
-        font-size: 31px;
-        font-weight: 600;
         color: $txt-headline-gray;
-        margin-top: -5px;
-        margin-bottom: 22px;
         letter-spacing: -1px;
         word-spacing: 2px;
       }
       > p {
         font-family: $small-txts-font;
-        font-size: 14px;
         color: $main-txt-gray;
-        margin-bottom: 48px;
-        line-height: 1.9;
       }
 
       .features-container {

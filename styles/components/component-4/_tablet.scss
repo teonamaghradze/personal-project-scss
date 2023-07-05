@@ -2,9 +2,30 @@
   .services-section {
     max-width: 768px;
     min-width: 100%;
+    padding-top: 73px;
+    padding-bottom: 11px;
+
+    > h2 {
+      font-size: 29px;
+      margin-bottom: 12px;
+    }
 
     .services-container {
       flex-direction: column;
+      .service:first-child {
+        position: relative;
+        right: 58px;
+        bottom: 84px;
+      }
+      .service:nth-child(2) {
+        width: 444px;
+        margin-top: -145px;
+      }
+      .service:last-child {
+        position: relative;
+        bottom: 61px;
+        right: 58px;
+      }
     }
   }
 }
