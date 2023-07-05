@@ -684,6 +684,7 @@ nav ul li a {
     max-width: 320px;
     padding: 0;
     padding-top: 33px;
+    padding-bottom: 10px;
   }
   .services-section h2 {
     font-size: 27px;
@@ -697,8 +698,20 @@ nav ul li a {
   .services-section .services-container .service h4 {
     font-size: 18.9647006989px;
   }
-  .services-section .services-container .service p {
+  .services-section .services-container .service .header1 {
+    margin-top: -5px;
+  }
+  .services-section .services-container .service .header2 {
+    margin-top: -57px;
+  }
+  .services-section .services-container .service .header3 {
+    margin-top: -45px;
+  }
+  .services-section .services-container .service .icons-txt-flex p {
     font-size: 12.9758501053px;
+    font-weight: 100;
+    margin-left: 20px;
+    line-height: 1.7;
   }
   .services-section .services-container .service .hexagon .main-service-icon {
     transform: scale(1);
@@ -723,12 +736,13 @@ nav ul li a {
   line-height: 34px;
   text-align: center;
   color: #323232;
+  margin-bottom: 10px;
 }
 .portfolio-section .portfolio-icon {
   display: flex;
   gap: 4px;
   align-items: center;
-  margin-bottom: 90px;
+  margin-bottom: 82px;
 }
 .portfolio-section .portfolio-icon .left-line,
 .portfolio-section .portfolio-icon .right-line {
@@ -758,9 +772,9 @@ nav ul li a {
   width: 100%;
   display: flex;
   gap: 10px;
-  padding-top: 160px;
+  padding-left: 319px;
+  padding-top: 159px;
   padding-bottom: 100px;
-  padding-left: 321px;
 }
 .portfolio-section .flex-container .box .content-wrapper .content-icons img:first-child {
   background-color: #3ab6b2;
@@ -811,16 +825,16 @@ nav ul li a {
   gap: 5px;
 }
 .portfolio-section .flex-container .box-second-row .box4 {
-  width: 383px;
+  width: 382px;
 }
 .portfolio-section .flex-container .box-second-row .box5 {
   width: 763px;
 }
 .portfolio-section .flex-container .box-second-row .box6 {
-  width: 373px;
+  width: 378px;
 }
 .portfolio-section .flex-container .box-second-row .box7 {
-  width: 373px;
+  width: 378px;
 }
 
 @media screen and (max-width: 1023.5px) {
@@ -828,20 +842,55 @@ nav ul li a {
     max-width: 768px;
     min-width: 100%;
   }
+  .portfolio-section > h2 {
+    font-size: 28px;
+    margin-top: -36px;
+  }
+  .portfolio-section .portfolio-icon {
+    margin-bottom: 56px;
+  }
   .portfolio-section .flex-container {
-    gap: 50px;
+    gap: 21px;
   }
-  .portfolio-section .box {
-    width: 200px !important;
-    height: 200px !important;
+  .portfolio-section .flex-container .box-1st-row {
+    gap: 22px;
   }
-  .portfolio-section .box7 {
+  .portfolio-section .flex-container .box-second-row {
+    gap: 22px;
+  }
+  .portfolio-section .flex-container .box {
+    width: 225px !important;
+    height: 229px !important;
+  }
+  .portfolio-section .flex-container .box7 {
     display: none;
   }
 }
 @media (max-width: 767.5px) {
   .portfolio-section {
-    max-width: 768px;
+    max-width: 320px;
+  }
+  .portfolio-section h2 {
+    margin-top: -109px;
+    margin-bottom: 10px;
+  }
+  .portfolio-section .portfolio-icon {
+    margin-bottom: 33px;
+  }
+  .portfolio-section .flex-container {
+    gap: 6px;
+  }
+  .portfolio-section .flex-container .box-1st-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .portfolio-section .flex-container .box {
+    width: 280px !important;
+    height: 163px !important;
+  }
+  .portfolio-section .flex-container .box5,
+  .portfolio-section .flex-container .box6 {
+    display: none;
   }
 }
 .contact-component {

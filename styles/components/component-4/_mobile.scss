@@ -3,6 +3,7 @@
     max-width: 320px;
     padding: 0;
     padding-top: 33px;
+    padding-bottom: 10px;
     h2 {
       font-size: 27px;
     }
@@ -14,8 +15,24 @@
         h4 {
           font-size: 18.96470069885254px;
         }
-        p {
-          font-size: 12.975850105285645px;
+        .header1 {
+          margin-top: -5px;
+        }
+
+        .header2 {
+          margin-top: -57px;
+        }
+        .header3 {
+          margin-top: -45px;
+        }
+
+        .icons-txt-flex {
+          p {
+            font-size: 12.975850105285645px;
+            font-weight: 100;
+            margin-left: 20px;
+            line-height: 1.7;
+          }
         }
 
         .hexagon {

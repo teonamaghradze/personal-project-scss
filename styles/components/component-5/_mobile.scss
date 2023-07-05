@@ -1,5 +1,28 @@
 @media (max-width: 767.5px) {
   .portfolio-section {
-    max-width: 768px;
+    max-width: 320px;
+    h2 {
+      margin-top: -109px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-icon {
+      margin-bottom: 33px;
+    }
+    .flex-container {
+      gap: 6px;
+      .box-1st-row {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .box {
+        width: 280px !important;
+        height: 163px !important;
+      }
+      .box5,
+      .box6 {
+        display: none;
+      }
+    }
   }
 }

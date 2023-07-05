@@ -2,17 +2,32 @@
   .portfolio-section {
     max-width: 768px;
     min-width: 100%;
+
+    > h2 {
+      font-size: 28px;
+      margin-top: -36px;
+    }
+
+    .portfolio-icon {
+      margin-bottom: 56px;
+    }
+
     .flex-container {
-      gap: 50px;
-    }
+      gap: 21px;
+      .box-1st-row {
+        gap: 22px;
+      }
+      .box-second-row {
+        gap: 22px;
+      }
+      .box {
+        width: 225px !important;
+        height: 229px !important;
+      }
 
-    .box {
-      width: 200px !important;
-      height: 200px !important;
-    }
-
-    .box7 {
-      display: none;
+      .box7 {
+        display: none;
+      }
     }
   }
 }
