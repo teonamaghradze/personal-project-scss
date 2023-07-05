@@ -12,35 +12,38 @@
     img {
       display: none;
     }
+
     .header-txt-container {
-      // margin-left: 5px;
+      // padding-top: 138px;
+
       h1 {
-        font-weight: 100;
+        padding: 0;
         font-size: 58px;
         span {
-          margin-left: 1px;
-          word-spacing: 0px;
-          letter-spacing: 0.6px;
-          margin-bottom: 1px;
+          margin-left: 20px;
+          word-spacing: 3px;
         }
         p {
-          font-size: 71.76841735839844px;
+          font-size: 69.8px;
+          margin-top: -3px;
+          margin-left: 10px;
+          letter-spacing: -1px;
           margin-bottom: 7px;
-          margin-top: -5px;
-          font-weight: 600;
-          letter-spacing: -0.6px;
-          margin-left: -8px;
         }
       }
+
       .header-main-txt {
         font-size: 18px;
         font-weight: 100;
         word-spacing: 1.8px;
         letter-spacing: 0.2px;
         margin-bottom: 39px;
-        margin-left: 20px;
-        margin-left: 15px;
+        margin-left: 16px;
         word-spacing: 2px;
+
+        span {
+          margin-right: 3px;
+        }
       }
 
       .header-btn {

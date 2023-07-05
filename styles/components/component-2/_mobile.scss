@@ -1,5 +1,58 @@
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   .header-box {
-    min-width: 767px;
+    max-width: 320px;
+    padding: 0;
+    margin-top: -2px;
+    padding-bottom: 59px;
+    .header-txt-container {
+      // padding-top: 138px;
+
+      h1 {
+        span {
+          font-size: 25px;
+          margin-left: 20px;
+          word-spacing: 2px;
+        }
+        p {
+          font-size: 30px;
+          // font-weight: bold;
+          margin-top: -11px;
+          margin-left: 15px;
+          margin-bottom: 1px;
+        }
+      }
+
+      .header-main-txt {
+        font-size: 9px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        word-spacing: 0.5px;
+        margin-bottom: 18px;
+        margin-left: 24px;
+        > span {
+          // margin-right: 0;
+        }
+
+        .mobile-txt {
+          display: none;
+        }
+      }
+
+      .header-btn {
+        width: 60px;
+        height: 15px;
+        font-size: 7px;
+        font-weight: bold;
+
+        text-align: left;
+        color: #fffefe;
+        margin-left: 129px;
+
+        padding-left: 10px;
+        letter-spacing: -0.1px;
+        word-spacing: -0.5px;
+        padding-top: 1px;
+      }
+    }
   }
 }

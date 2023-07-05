@@ -9,40 +9,23 @@
 
     h1 {
       font-family: $big-txts-font;
-      font-size: 62px;
 
       p {
         font-family: $headline-font;
-        font-size: 74px;
         font-weight: bold;
-        margin-top: -8px;
-        margin-bottom: 5px;
-        word-spacing: -1px;
-        margin-left: -11px;
-        letter-spacing: -2px;
       }
     }
     .header-main-txt {
       font-family: $big-txts-font;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 100;
-      word-spacing: 2.3px;
-      letter-spacing: 0.2px;
-      margin-bottom: 39px;
-      margin-left: 15px;
     }
 
     .header-btn {
       width: 138px;
       height: 38px;
-      border-color: #ffffff;
-      color: #ffffff;
-      border-width: 1px;
-      border-style: solid;
-      background: #3ab6b2;
-      outline: 3px solid #3ab6b2;
-      margin-left: 319px;
+      background: $main-green;
+      color: $txt-white;
+      border: 1px solid $txt-white;
+      outline: 3px solid $main-green;
       letter-spacing: -0.6px;
       word-spacing: 1px;
     }

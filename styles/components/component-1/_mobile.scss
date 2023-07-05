@@ -1,9 +1,18 @@
 @media (max-width: 767.5px) {
   nav {
-    max-width: 768px;
-    padding-left: 26px;
+    max-width: 320px;
+    padding-left: 21px;
+    padding-right: 21px;
+    gap: 90px;
     .nav-logo {
-      width: 124px;
+      width: 93px;
+      padding-top: 17px;
+    }
+
+    #menu {
+      width: 44px;
+      margin-right: 2px;
+      padding-top: 12px;
     }
   }
 }
