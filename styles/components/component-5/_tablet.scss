@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023.5px) {
+@media screen and ($tablet-screen) {
   .portfolio-section {
     max-width: 768px;
     min-width: 100%;
@@ -38,12 +38,11 @@
       gap: 21px;
 
       #content-footer-resp {
-        
         h4 {
           font-size: 12px;
           font-weight: 500;
-          margin-left: -2px;  
-          margin-bottom: 6px;  
+          margin-left: -2px;
+          margin-bottom: 6px;
         }
         p {
           margin-left: -1px;

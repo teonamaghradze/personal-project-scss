@@ -7,10 +7,8 @@
   padding-bottom: 122px;
 
   h2 {
-    font-family: $big-txts-font;
     font-size: 31px;
-
-    color: #333333;
+    color: $contact-header-gray;
     margin-bottom: 10px;
   }
 
@@ -30,14 +28,12 @@
 
   .contact-methods-container {
     display: flex;
-    // align-items: center;
     gap: 172px;
     margin-left: 3px;
     margin-right: 19px;
     .contact-method {
       display: flex;
       flex-direction: column;
-      // align-items: center;
       margin-bottom: 81px;
 
       .location-icon {
@@ -53,20 +49,18 @@
       }
 
       .hands-icon {
-        width:46px;
+        width: 46px;
         margin-left: 39px;
         margin-bottom: 21px;
       }
-     
 
       p {
-        font-family: $big-txts-font;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         font-style: normal;
         text-align: center;
-        color: #606060;
+        color: $contact-txt-gray;
       }
     }
   }
@@ -78,13 +72,12 @@
     .name,
     .email {
       width: 464px;
-      width: 464px;
       height: 46px;
-      border-color: #d4d4d4;
+      border-color: $light-gray;
       border-width: 1px;
       border-style: solid;
 
-      background: #ffffff;
+      background: $txt-white;
       padding-left: 10px;
       font-size: 14px;
     }
@@ -99,11 +92,11 @@
       height: 46px;
       margin-bottom: 15px;
 
-      border-color: #d4d4d4;
+      border-color: $light-gray;
       border-width: 1px;
       border-style: solid;
 
-      background: #ffffff;
+      background: $txt-white;
       padding-left: 10px;
       font-size: 14px;
     }
@@ -120,15 +113,14 @@
       flex-direction: column;
       width: 945px;
       margin-bottom: 17px;
-      
     }
   }
 
   .form-btn {
     width: 160px;
     height: 42px;
-    background: #3ab6b2;
-    color: white;
+    background: $main-green;
+    color: $txt-white;
     border: none;
     margin-right: 785px;
     letter-spacing: -0.5px;

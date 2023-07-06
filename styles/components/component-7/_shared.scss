@@ -18,10 +18,10 @@ footer {
     gap: 5px;
     margin-bottom: 29px;
     margin-left: 1px;
-    .flex-socials, 
+    .flex-socials,
     .flex-socials2 {
       display: flex;
-      gap:10px;
+      gap: 10px;
     }
     img {
       width: 40px;
@@ -29,8 +29,8 @@ footer {
       padding: 11px;
       border-width: 1px;
       border-radius: 3px;
-      background-color: #252525;
-      &:hover{
+      background-color: $bg-icon-socials;
+      &:hover {
         cursor: pointer;
         background-color: $socials-bg-blue;
       }
@@ -43,29 +43,24 @@ footer {
       padding: 13px;
     }
 
-
     .be-icon {
-        position: relative;
-        right: 2px;
-        top: 1px;
-      }
+      position: relative;
+      right: 2px;
+      top: 1px;
+    }
 
-      .deviant-icon {
-        width: 43px;
-        padding: 7px;
-      }
-     
-   
+    .deviant-icon {
+      width: 43px;
+      padding: 7px;
+    }
+
     .flickr {
       width: 42px;
     }
-    
   }
-  }
-  small {
-    font-family: $big-txts-font;
-    font-size: 11px;
-    color: #fefefe;
-    word-spacing: 0.7px
-  }
-
+}
+small {
+  font-size: 11px;
+  color: $footer-txt-gray;
+  word-spacing: 0.7px;
+}

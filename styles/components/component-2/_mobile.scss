@@ -1,4 +1,4 @@
-@media (max-width: 767.5px) {
+@media ($mobile-screen) {
   .header-box {
     max-width: 320px;
     padding: 0;
@@ -8,6 +8,7 @@
       padding-top: 14px;
 
       h1 {
+        padding-right: 24px;
         span {
           font-size: 25px;
           margin-left: 20px;
@@ -27,8 +28,8 @@
         letter-spacing: -0.2px;
         word-spacing: 0.5px;
         margin-bottom: 19px;
-        margin-left: 24px;
-       
+        margin-left: 0;
+
         .mobile-txt {
           display: none;
         }
@@ -41,8 +42,8 @@
         font-weight: bold;
 
         text-align: left;
-        color: #fffefe;
-        margin-left: 129px;
+        color: $services-white;
+        margin-left: 105px;
 
         padding-left: 10px;
         letter-spacing: -0.1px;

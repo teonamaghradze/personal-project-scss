@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023.5px) {
+@media screen and ($tablet-screen) {
   .contact-component {
     max-width: 768px;
     min-width: 100%;
@@ -33,9 +33,9 @@
         .location-icon {
           margin-left: 56px;
         }
-        .mail-icon{
+        .mail-icon {
           margin-left: 54px;
-        };
+        }
         .hands-icon {
           margin-left: 52px;
         }
@@ -43,8 +43,7 @@
     }
   }
 
- .form {
-
+  .form {
     #form-mail-name {
       margin-left: 0;
       gap: 12px;
@@ -59,13 +58,11 @@
       margin-left: 2px;
       margin-bottom: 13px;
       padding-left: 11px;
-      }
-    
+    }
 
     #form-textarea {
       max-width: 720px;
-      margin-left: -3px;
-
+      margin-left: -2px;
     }
   }
   .form-btn {

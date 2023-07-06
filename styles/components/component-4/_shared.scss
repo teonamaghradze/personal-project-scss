@@ -2,13 +2,13 @@
   padding-left: 240px;
   padding-right: 240px;
   padding-bottom: 150px;
-  background-color: $bg-black;
+  background-color: $bg-black-header;
   width: 1920px;
   display: flex;
   flex-direction: column;
   align-items: center;
   h2 {
-    font-family: $big-txts-font;
+    // font-family: $big-txts-font;
     font-weight: normal;
     text-align: center;
     color: $services-white;
@@ -29,7 +29,6 @@
 
   .services-container {
     display: flex;
-    // align-items: center;
     gap: 65px;
 
     .service:first-child {
@@ -40,11 +39,6 @@
     .service:nth-child(2) {
       padding-right: 120px;
       width: 198px;
-
-      // h4 {
-      //   padding-right: 4px;
-      //   word-spacing: 2px;
-      // }
     }
 
     .service:nth-child(2),
@@ -71,13 +65,6 @@
         padding-bottom: 235px;
 
         right: 20px;
-        // &::before {
-        //   content: "⬢";
-        //   color: #3ab6b2;
-        //   font-size: 198px;
-        //   position: absolute;
-        //   z-index: 0;
-        // }
 
         img {
           position: absolute;
@@ -118,7 +105,7 @@
       }
 
       h4 {
-        font-family: $big-txts-font;
+        // font-family: $big-txts-font;
         font-size: 20px;
         font-weight: bold;
         line-height: 40px;
@@ -128,10 +115,10 @@
         margin-bottom: 5px;
       }
       p {
-        font-family: "Open Sans";
+        font-family: $small-txts-font;
         font-size: 14px;
         text-align: center;
-        color: #ffffff;
+        color: $txt-white;
 
         line-height: 22px;
         letter-spacing: 0px;

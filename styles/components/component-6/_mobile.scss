@@ -1,4 +1,4 @@
-@media (max-width: 767.5px) {
+@media ($mobile-screen) {
   .contact-component {
     max-width: 320px;
     padding-top: 45px;
@@ -19,16 +19,12 @@
     #contact-hands-icon {
       margin-left: 48px;
       margin-top: -3px;
-      
-      
+
       & + .hands-icon-txt {
         margin-left: -1px;
       }
     }
 
-    
-
-   
     .contact-methods-container {
       flex-direction: column;
       gap: 0;
@@ -44,7 +40,6 @@
       .name-email {
         flex-direction: column;
         gap: 11px;
-        
       }
       .subject {
         margin-bottom: 9px;
@@ -52,18 +47,17 @@
 
       textarea {
         height: 141px;
-        padding-left: 13.6px;  
+        padding-left: 13.6px;
       }
       .textarea {
         margin-bottom: 14px;
       }
-      
-      #form-mail-name, #form-textarea, #form-subject  {
-        max-width: 281px;
-      
-      }
 
-     
+      #form-mail-name,
+      #form-textarea,
+      #form-subject {
+        max-width: 281px;
+      }
 
       #form-subject {
         margin-bottom: 9px;
@@ -71,19 +65,17 @@
 
       #form-mail-name {
         gap: 9px;
-           max-width: 279px;
-            margin-right: 3px;
-        .name, .email {
+        max-width: 279px;
+        margin-right: 3px;
+        .name,
+        .email {
           max-width: 100% !important;
-
         }
 
         .email {
           padding-left: 9px;
         }
       }
-         
-      
     }
 
     .form-btn {

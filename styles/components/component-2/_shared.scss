@@ -1,22 +1,18 @@
 .header-box {
   width: 1920px;
+
   background-color: $bg-black-header;
   display: flex;
   justify-content: space-between;
 
   .header-txt-container {
     color: $txt-white;
-
+    margin: 0 auto;
     h1 {
-      font-family: $big-txts-font;
-
       p {
         font-family: $headline-font;
         font-weight: bold;
       }
-    }
-    .header-main-txt {
-      font-family: $big-txts-font;
     }
 
     .header-btn {

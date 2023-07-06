@@ -1,4 +1,4 @@
-@media (max-width: 767.5px) {
+@media ($mobile-screen) {
   .computer-section {
     max-width: 320px;
     padding-top: 76px;
@@ -54,7 +54,6 @@
             > p {
               font-family: $small-txts-font;
               font-size: 13px;
-              // line-height: 23px;
               color: $list-font-color;
               margin-top: 6px;
               line-height: 22px;
