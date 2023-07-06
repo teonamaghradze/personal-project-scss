@@ -166,6 +166,7 @@ nav ul li a {
   .header-box .header-txt-container h1 {
     padding: 0;
     font-size: 58px;
+    margin-bottom: -2px;
   }
   .header-box .header-txt-container h1 span {
     margin-left: 20px;
@@ -391,6 +392,7 @@ nav ul li a {
     display: block;
     margin-left: 24px;
     margin-right: 26px;
+    margin-bottom: -2px;
   }
   .computer-section .comp-main .comp-img {
     display: none;
@@ -398,7 +400,7 @@ nav ul li a {
   .computer-section .comp-main .computer-txt h2 {
     font-size: 25px;
     margin-left: 25px;
-    margin-bottom: 36px;
+    margin-bottom: 17px;
   }
   .computer-section .comp-main .computer-txt .desktop-txt {
     display: none;
@@ -409,6 +411,8 @@ nav ul li a {
     font-size: 13px;
     line-height: 1.8;
     margin-bottom: 30px;
+    border-top: 1px solid lightgray;
+    padding-top: 18px;
   }
   .computer-section .comp-main .computer-txt .features-container-desktop,
   .computer-section .comp-main .computer-txt .features-container-mobile {
@@ -857,9 +861,37 @@ nav ul li a {
   .portfolio-section #content-icons-resp {
     padding-left: 0;
     padding-top: 0;
+    padding-left: 68px;
+    padding-top: 81px;
+    padding-bottom: 54px;
+  }
+  .portfolio-section #content-icons-resp img:first-child {
+    background-color: #3ab6b2;
+    border-radius: 50%;
+    padding: 8px;
+    width: 35px;
+    height: 35px;
+  }
+  .portfolio-section #content-icons-resp img:last-child {
+    border-radius: 50%;
+    border: 1px solid #3ab6b2;
+    padding: 8px;
+    width: 35px;
+    height: 35px;
   }
   .portfolio-section .flex-container {
     gap: 21px;
+  }
+  .portfolio-section .flex-container #content-footer-resp h4 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -2px;
+    margin-bottom: 6px;
+  }
+  .portfolio-section .flex-container #content-footer-resp p {
+    margin-left: -1px;
+    font-size: 10px;
+    word-spacing: -0.3px;
   }
   .portfolio-section .flex-container .box-1st-row {
     gap: 22px;
@@ -1037,22 +1069,47 @@ nav ul li a {
     margin-bottom: 12px;
   }
   .contact-component .phone-icon {
-    margin-bottom: 59px;
+    margin-bottom: 58px;
   }
   .contact-component .content-icons {
     padding-left: 20px;
   }
+  .contact-component .contact-methods-container {
+    margin-left: 4px;
+    margin-right: 18px;
+    word-spacing: -1.2px;
+    gap: 157px;
+  }
   .contact-component .contact-methods-container .contact-method {
     margin-bottom: 45px;
   }
-  form {
-    max-width: 713px;
+  .contact-component .contact-methods-container .contact-method p {
+    font-size: 15px;
+    font-weight: 500;
   }
-  form .subject {
-    width: 700px !important;
+  .contact-component .contact-methods-container .contact-method .location-icon {
+    margin-left: 56px;
   }
-  form .textarea {
-    width: 700px !important;
+  .contact-component .contact-methods-container .contact-method .mail-icon {
+    margin-left: 42px;
+  }
+  .form #form-mail-name {
+    margin-left: 0;
+    gap: 12px;
+    max-width: 719px;
+  }
+  .form #form-mail-name .email {
+    padding-left: 7px;
+  }
+  .form #form-subject {
+    max-width: 720px;
+    margin-left: 2px;
+    margin-bottom: 13px;
+    padding-left: 11px;
+  }
+  .form #form-textarea {
+    max-width: 720px;
+    margin-left: -3px;
   }
   .form-btn {
     margin-left: 200px;
@@ -1157,6 +1214,10 @@ small {
   footer {
     max-width: 768px;
     min-width: 100%;
+    padding-top: 51px;
+  }
+  footer .location-icon {
+    margin-left: 49px;
   }
 }
 @media (max-width: 767.5px) {

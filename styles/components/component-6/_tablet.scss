@@ -9,39 +9,59 @@
       margin-bottom: 12px;
     }
     .phone-icon {
-      margin-bottom: 59px;
+      margin-bottom: 58px;
     }
 
     .content-icons {
       padding-left: 20px;
     }
     .contact-methods-container {
+      margin-left: 4px;
+
+      margin-right: 18px;
+      word-spacing: -1.2px;
+      gap:157px;
       .contact-method {
         margin-bottom: 45px;
+        p {
+          font-size: 15px;
+          font-weight: 500;
+        }
+        .location-icon {
+          margin-left: 56px;
+        }
+        .mail-icon{
+          margin-left: 42px;
+        };
       }
     }
   }
 
-  form {
-    max-width: 713px;
-    // margin-left: -100px;
-    // margin-right: 225px;
-    // margin-right: -224px;
-    .name,
-    .email {
-      // width: 353px !important;
+ .form {
+
+    #form-mail-name {
+      margin-left: 0;
+      gap: 12px;
+      max-width: 719px;
+      .email {
+        padding-left: 7px;
+      }
+      
+
     }
 
-    .subject {
-      width: 700px !important;
-    }
+    #form-subject {
+      max-width: 720px;
+      margin-left: 2px;
+      margin-bottom: 13px;
+      padding-left: 11px;
+      }
+    
 
-    .textarea {
-      width: 700px !important;
-    }
+    #form-textarea {
+      max-width: 720px;
+      margin-left: -3px;
 
-    textarea {
-      // width: 719px;
     }
   }
   .form-btn {
