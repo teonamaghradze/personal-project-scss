@@ -6,7 +6,7 @@
 
     > h2 {
       font-size: 27px;
-      margin-bottom: 10px;
+      margin-bottom: 11px;
     }
     .speak-icon {
       margin-bottom: 34px;
@@ -32,7 +32,7 @@
           font-size: 17px;
           margin-left: 20px;
           word-spacing: 0;
-          margin-bottom: 23px;
+          margin-bottom: 11px;
         }
 
         .features-container-tablet {
@@ -86,6 +86,8 @@
           line-height: 1.8;
           font-size: 13px;
           margin-bottom: 27px;
+          border-top: 1px solid lightgray;
+          padding-top: 11px;
         }
       }
     }

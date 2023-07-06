@@ -3,9 +3,9 @@
     max-width: 320px;
     padding: 0;
     margin-top: -2px;
-    padding-bottom: 59px;
+    padding-bottom: 60px;
     .header-txt-container {
-      // padding-top: 138px;
+      padding-top: 14px;
 
       h1 {
         span {
@@ -15,10 +15,9 @@
         }
         p {
           font-size: 30px;
-          // font-weight: bold;
-          margin-top: -11px;
+          margin-top: -12px;
           margin-left: 15px;
-          margin-bottom: 1px;
+          margin-bottom: 3px;
         }
       }
 
@@ -27,17 +26,17 @@
         font-weight: 400;
         letter-spacing: -0.2px;
         word-spacing: 0.5px;
-        margin-bottom: 18px;
+        margin-bottom: 19px;
         margin-left: 24px;
-
+       
         .mobile-txt {
           display: none;
         }
       }
 
       .header-btn {
-        width: 60px;
-        height: 15px;
+        width: 59px;
+        height: 13px;
         font-size: 7px;
         font-weight: bold;
 

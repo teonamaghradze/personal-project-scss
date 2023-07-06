@@ -64,6 +64,7 @@ nav ul li a {
     max-width: 320px;
     padding-left: 21px;
     padding-right: 21px;
+    padding-bottom: 15px;
     gap: 90px;
   }
   nav .nav-logo {
@@ -200,7 +201,10 @@ nav ul li a {
     max-width: 320px;
     padding: 0;
     margin-top: -2px;
-    padding-bottom: 59px;
+    padding-bottom: 60px;
+  }
+  .header-box .header-txt-container {
+    padding-top: 14px;
   }
   .header-box .header-txt-container h1 span {
     font-size: 25px;
@@ -209,24 +213,24 @@ nav ul li a {
   }
   .header-box .header-txt-container h1 p {
     font-size: 30px;
-    margin-top: -11px;
+    margin-top: -12px;
     margin-left: 15px;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
   }
   .header-box .header-txt-container .header-main-txt {
     font-size: 9px;
     font-weight: 400;
     letter-spacing: -0.2px;
     word-spacing: 0.5px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     margin-left: 24px;
   }
   .header-box .header-txt-container .header-main-txt .mobile-txt {
     display: none;
   }
   .header-box .header-txt-container .header-btn {
-    width: 60px;
-    height: 15px;
+    width: 59px;
+    height: 13px;
     font-size: 7px;
     font-weight: bold;
     text-align: left;
@@ -460,7 +464,7 @@ nav ul li a {
   }
   .computer-section > h2 {
     font-size: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
   .computer-section .speak-icon {
     margin-bottom: 34px;
@@ -484,7 +488,7 @@ nav ul li a {
     font-size: 17px;
     margin-left: 20px;
     word-spacing: 0;
-    margin-bottom: 23px;
+    margin-bottom: 11px;
   }
   .computer-section .comp-main .computer-txt .features-container-tablet {
     display: none;
@@ -532,6 +536,8 @@ nav ul li a {
     line-height: 1.8;
     font-size: 13px;
     margin-bottom: 27px;
+    border-top: 1px solid lightgray;
+    padding-top: 11px;
   }
 }
 .services-section {
@@ -1148,14 +1154,11 @@ nav ul li a {
   .contact-component form .textarea {
     margin-bottom: 14px;
   }
-  .contact-component form .name,
-  .contact-component form .email,
-  .contact-component form textarea,
-  .contact-component form .subject,
-  .contact-component form .name-email,
-  .contact-component form .textarea,
-  .contact-component form form {
-    max-width: 280px;
+  .contact-component form #form-mail-name, .contact-component form #form-textarea, .contact-component form #form-subject {
+    max-width: 200px;
+  }
+  .contact-component form #form-mail-name .name, .contact-component form #form-mail-name .email {
+    max-width: 200px !important;
   }
   .contact-component .form-btn {
     margin-left: 636px;
@@ -1222,8 +1225,8 @@ small {
 }
 @media (max-width: 767.5px) {
   footer {
-    padding-bottom: 41px;
     max-width: 320px;
+    padding-bottom: 41px;
   }
   footer > img {
     width: 118.9px;

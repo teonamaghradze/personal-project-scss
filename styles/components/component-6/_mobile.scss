@@ -21,6 +21,7 @@
       .name-email {
         flex-direction: column;
         gap: 11px;
+        
       }
       .subject {
         margin-bottom: 9px;
@@ -32,15 +33,18 @@
       .textarea {
         margin-bottom: 14px;
       }
-      .name,
-      .email,
-      textarea,
-      .subject,
-      .name-email,
-      .textarea,
-      form {
-        max-width: 280px;
+      
+      #form-mail-name, #form-textarea, #form-subject,  {
+          max-width: 200px;
       }
+      #form-mail-name {
+        .name, .email {
+          max-width: 200px !important;
+
+        }
+      }
+         
+      
     }
 
     .form-btn {

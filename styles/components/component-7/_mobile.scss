@@ -1,7 +1,7 @@
 @media (max-width: 767.5px) {
   footer {
-    padding-bottom: 41px;
     max-width: 320px;
+    padding-bottom: 41px;
     > img {
       width: 118.9px;
       height: 43.2px;
@@ -11,5 +11,8 @@
       flex-direction: column;
       margin-bottom: 13px;
     }
+
+   
+  
   }
 }
