@@ -1,5 +1,50 @@
 @media (max-width: 767.5px) {
   .contact-component {
-    max-width: 768px;
+    max-width: 320px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+
+    .phone-icon {
+      margin-bottom: 40px;
+    }
+    .contact-methods-container {
+      flex-direction: column;
+      gap: 0;
+
+      .contact-method {
+        margin-bottom: 40px;
+      }
+    }
+
+    form {
+      gap: 10px;
+      .name-email {
+        flex-direction: column;
+        gap: 11px;
+      }
+      .subject {
+        margin-bottom: 9px;
+      }
+
+      textarea {
+        height: 141px;
+      }
+      .textarea {
+        margin-bottom: 14px;
+      }
+      .name,
+      .email,
+      textarea,
+      .subject,
+      .name-email,
+      .textarea,
+      form {
+        max-width: 280px;
+      }
+    }
+
+    .form-btn {
+      margin-left: 636px;
+    }
   }
 }

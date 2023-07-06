@@ -2,9 +2,50 @@
   .contact-component {
     max-width: 768px;
     min-width: 100%;
+    padding-top: 77px;
+    padding-bottom: 82px;
+    h2 {
+      font-size: 29px;
+      margin-bottom: 12px;
+    }
+    .phone-icon {
+      margin-bottom: 59px;
+    }
+
+    .content-icons {
+      padding-left: 20px;
+    }
+    .contact-methods-container {
+      .contact-method {
+        margin-bottom: 45px;
+      }
+    }
   }
 
   form {
-    margin-right: 225px;
+    max-width: 713px;
+    // margin-left: -100px;
+    // margin-right: 225px;
+    // margin-right: -224px;
+    .name,
+    .email {
+      // width: 353px !important;
+    }
+
+    .subject {
+      width: 700px !important;
+    }
+
+    .textarea {
+      width: 700px !important;
+    }
+
+    textarea {
+      // width: 719px;
+    }
+  }
+  .form-btn {
+    margin-left: 200px;
+    margin-right: 758px !important;
   }
 }

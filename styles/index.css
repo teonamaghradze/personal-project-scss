@@ -728,6 +728,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 .portfolio-section h2 {
   font-family: "Raleway", sans-serif;
@@ -849,6 +850,10 @@ nav ul li a {
   .portfolio-section .portfolio-icon {
     margin-bottom: 56px;
   }
+  .portfolio-section #content-icons-resp {
+    padding-left: 0;
+    padding-top: 0;
+  }
   .portfolio-section .flex-container {
     gap: 21px;
   }
@@ -874,6 +879,12 @@ nav ul li a {
     margin-top: -109px;
     margin-bottom: 10px;
   }
+  .portfolio-section #content-icons-resp {
+    padding-bottom: 47px;
+  }
+  .portfolio-section #content-footer-resp {
+    font-size: 13px;
+  }
   .portfolio-section .portfolio-icon {
     margin-bottom: 33px;
   }
@@ -898,17 +909,14 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 122px;
 }
 .contact-component h2 {
   font-family: "Raleway", sans-serif;
   font-size: 31px;
-  font-weight: normal;
-  line-height: 34px;
-  font-style: normal;
-  text-align: left;
   color: #333333;
+  margin-bottom: 10px;
 }
 .contact-component .phone-icon {
   display: flex;
@@ -925,15 +933,16 @@ nav ul li a {
 .contact-component .contact-methods-container {
   display: flex;
   align-items: center;
+  gap: 180px;
 }
 .contact-component .contact-methods-container .contact-method {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 81px;
 }
 .contact-component .contact-methods-container .contact-method img {
-  width: 30px;
+  margin-bottom: 18px;
 }
 .contact-component .contact-methods-container .contact-method p {
   font-family: "Raleway", sans-serif;
@@ -947,7 +956,7 @@ nav ul li a {
 .contact-component form {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 14px;
 }
 .contact-component form .name,
 .contact-component form .email {
@@ -966,7 +975,7 @@ nav ul li a {
 .contact-component form .subject {
   width: 945px;
   height: 46px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-color: #d4d4d4;
   border-width: 1px;
   border-style: solid;
@@ -976,6 +985,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   width: 945px;
+  margin-bottom: 17px;
 }
 .contact-component .form-btn {
   width: 160px;
@@ -983,20 +993,86 @@ nav ul li a {
   background: #3ab6b2;
   color: white;
   border: none;
+  margin-right: 785px;
 }
 
 @media screen and (max-width: 1023.5px) {
   .contact-component {
     max-width: 768px;
     min-width: 100%;
+    padding-top: 77px;
+    padding-bottom: 82px;
+  }
+  .contact-component h2 {
+    font-size: 29px;
+    margin-bottom: 12px;
+  }
+  .contact-component .phone-icon {
+    margin-bottom: 59px;
+  }
+  .contact-component .content-icons {
+    padding-left: 20px;
+  }
+  .contact-component .contact-methods-container .contact-method {
+    margin-bottom: 45px;
   }
   form {
-    margin-right: 225px;
+    max-width: 713px;
+  }
+  form .subject {
+    width: 700px !important;
+  }
+  form .textarea {
+    width: 700px !important;
+  }
+  .form-btn {
+    margin-left: 200px;
+    margin-right: 758px !important;
   }
 }
 @media (max-width: 767.5px) {
   .contact-component {
-    max-width: 768px;
+    max-width: 320px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+  .contact-component .phone-icon {
+    margin-bottom: 40px;
+  }
+  .contact-component .contact-methods-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact-component .contact-methods-container .contact-method {
+    margin-bottom: 40px;
+  }
+  .contact-component form {
+    gap: 10px;
+  }
+  .contact-component form .name-email {
+    flex-direction: column;
+    gap: 11px;
+  }
+  .contact-component form .subject {
+    margin-bottom: 9px;
+  }
+  .contact-component form textarea {
+    height: 141px;
+  }
+  .contact-component form .textarea {
+    margin-bottom: 14px;
+  }
+  .contact-component form .name,
+  .contact-component form .email,
+  .contact-component form textarea,
+  .contact-component form .subject,
+  .contact-component form .name-email,
+  .contact-component form .textarea,
+  .contact-component form form {
+    max-width: 280px;
+  }
+  .contact-component .form-btn {
+    margin-left: 636px;
   }
 }
 footer {
@@ -1004,19 +1080,24 @@ footer {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 47px;
+  padding-bottom: 58px;
   width: 1920px;
-  background-color: red;
+  background-color: #000000;
+}
+footer > img {
+  margin-bottom: 18px;
 }
 footer .socials {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 29px;
 }
 footer .socials img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
   border-width: 1px;
   border-radius: 3px;
   background-color: #252525;
@@ -1035,6 +1116,16 @@ footer small {
 }
 @media (max-width: 767.5px) {
   footer {
-    max-width: 768px;
+    padding-bottom: 41px;
+    max-width: 320px;
+  }
+  footer > img {
+    width: 118.9px;
+    height: 43.2px;
+  }
+  footer .socials {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -3,18 +3,22 @@ footer {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 47px;
+  padding-bottom: 58px;
   width: 1920px;
-  background-color: red;
+  background-color: $bg-black;
+  > img {
+    margin-bottom: 18px;
+  }
   .socials {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 29px;
     img {
-      width: 20px;
-      height: 20px;
-
+      width: 40px;
+      height: 40px;
+      padding: 11px;
       border-width: 1px;
       border-radius: 3px;
       background-color: #252525;
