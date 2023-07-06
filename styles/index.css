@@ -1,7 +1,3 @@
-body .container {
-  max-width: 1920px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -460,7 +456,7 @@ nav ul li a {
   .computer-section {
     max-width: 320px;
     padding-top: 76px;
-    padding-bottom: 24px;
+    padding-bottom: 22px;
   }
   .computer-section > h2 {
     font-size: 27px;
@@ -693,8 +689,9 @@ nav ul li a {
 @media (max-width: 767.5px) {
   .services-section {
     max-width: 320px;
+    max-height: 1107px;
     padding: 0;
-    padding-top: 33px;
+    padding-top: 35px;
     padding-bottom: 10px;
   }
   .services-section h2 {
@@ -711,26 +708,67 @@ nav ul li a {
   }
   .services-section .services-container .service .header1 {
     margin-top: -5px;
+    margin-left: -4px;
   }
   .services-section .services-container .service .header2 {
-    margin-top: -57px;
+    margin-top: -52px;
   }
   .services-section .services-container .service .header3 {
-    margin-top: -45px;
+    margin-top: -41px;
+  }
+  .services-section .services-container .service .icons-txt-flex .header1 + p {
+    margin-left: 4px;
+    word-spacing: 2.5px;
+    letter-spacing: 0.05px;
   }
   .services-section .services-container .service .icons-txt-flex p {
     font-size: 12.9758501053px;
     font-weight: 100;
     margin-left: 20px;
     line-height: 1.7;
+    line-height: 1.6;
+    word-spacing: 4px;
+    max-width: 278px;
   }
   .services-section .services-container .service .hexagon .main-service-icon {
     transform: scale(1);
+  }
+  .services-section .services-container .service .hexagon:nth-child(2) {
+    position: relative;
+    bottom: 46px;
+  }
+  .services-section .services-container .service .hexagon:nth-child(3) {
+    bottom: 35px;
+    transform: scale(1.04);
+    right: 23px;
   }
   .services-section .services-container .service:first-child {
     position: relative;
     right: 58px;
     bottom: 95px;
+  }
+  .services-section .services-container .scnd-service-item .hexagon {
+    position: relative;
+    bottom: 46px;
+    position: relative;
+    bottom: 49px;
+    transform: scale(1.04);
+    right: 21px;
+  }
+  .services-section .services-container .scnd-service-item .header2 + p {
+    margin-left: 8px;
+    word-spacing: 2.7px;
+  }
+  .services-section .services-container .third-service-item .hexagon {
+    bottom: 35px;
+    transform: scale(1.04);
+    right: 23px;
+  }
+  .services-section .services-container .third-service-item .header3 + p {
+    margin-left: 8px;
+    word-spacing: 3.1px;
+    line-height: 22px;
+    max-width: 287px;
   }
 }
 .portfolio-section {
@@ -852,6 +890,10 @@ nav ul li a {
   width: 378px;
 }
 
+.mobile-hover-icons {
+  display: none;
+}
+
 @media screen and (max-width: 1023.5px) {
   .portfolio-section {
     max-width: 768px;
@@ -916,19 +958,52 @@ nav ul li a {
 @media (max-width: 767.5px) {
   .portfolio-section {
     max-width: 320px;
+    padding-top: 73px;
   }
   .portfolio-section h2 {
-    margin-top: -109px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
+    font-size: 27px;
   }
   .portfolio-section #content-icons-resp {
-    padding-bottom: 47px;
+    display: none;
   }
-  .portfolio-section #content-footer-resp {
+  .portfolio-section .mobile-hover-icons {
+    display: flex;
+    gap: 6px;
+    margin-top: 44px;
+  }
+  .portfolio-section .mobile-hover-icons img {
+    border: 2px solid #3ab6b2;
+    border-radius: 50%;
+    padding: 7px;
+    width: 27px;
+    height: 27px;
+  }
+  .portfolio-section .mobile-hover-icons img:hover {
+    background-color: #3ab6b2;
+  }
+  .portfolio-section .flex-container #content-footer-resp {
     font-size: 13px;
+  }
+  .portfolio-section .flex-container #content-footer-resp .content-footer-header {
+    padding-top: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -16px;
+    margin-bottom: 3px;
+    word-spacing: 1px;
+  }
+  .portfolio-section .flex-container #content-footer-resp .content-footer-header::first-letter {
+    visibility: hidden;
+  }
+  .portfolio-section .flex-container #content-footer-resp p {
+    font-size: 11px;
+    word-spacing: -0.3px;
+    margin-left: 1px;
   }
   .portfolio-section .portfolio-icon {
     margin-bottom: 33px;
+    margin-left: -5px;
   }
   .portfolio-section .flex-container {
     gap: 6px;
@@ -1081,10 +1156,11 @@ nav ul li a {
     padding-left: 20px;
   }
   .contact-component .contact-methods-container {
-    margin-left: 4px;
+    margin-left: 16px;
     margin-right: 18px;
-    word-spacing: -1.2px;
-    gap: 157px;
+    word-spacing: 0.8px;
+    gap: 148px;
+    letter-spacing: 0.5px;
   }
   .contact-component .contact-methods-container .contact-method {
     margin-bottom: 45px;
@@ -1093,11 +1169,17 @@ nav ul li a {
     font-size: 15px;
     font-weight: 500;
   }
+  .contact-component .contact-methods-container .contact-method .hands-icon-txt {
+    margin-left: 11px;
+  }
   .contact-component .contact-methods-container .contact-method .location-icon {
     margin-left: 56px;
   }
   .contact-component .contact-methods-container .contact-method .mail-icon {
-    margin-left: 42px;
+    margin-left: 54px;
+  }
+  .contact-component .contact-methods-container .contact-method .hands-icon {
+    margin-left: 52px;
   }
   .form #form-mail-name {
     margin-left: 0;
@@ -1125,15 +1207,31 @@ nav ul li a {
 @media (max-width: 767.5px) {
   .contact-component {
     max-width: 320px;
-    padding-top: 43px;
+    padding-top: 45px;
     padding-bottom: 43px;
   }
+  .contact-component h2 {
+    font-size: 27px;
+    margin-bottom: 11px;
+  }
   .contact-component .phone-icon {
-    margin-bottom: 40px;
+    margin-bottom: 43px;
+  }
+  .contact-component #contact-mail-icon {
+    margin-top: -2px;
+    margin-left: 56px;
+  }
+  .contact-component #contact-hands-icon {
+    margin-left: 48px;
+    margin-top: -3px;
+  }
+  .contact-component #contact-hands-icon + .hands-icon-txt {
+    margin-left: -1px;
   }
   .contact-component .contact-methods-container {
     flex-direction: column;
     gap: 0;
+    max-height: 405px;
   }
   .contact-component .contact-methods-container .contact-method {
     margin-bottom: 40px;
@@ -1150,18 +1248,34 @@ nav ul li a {
   }
   .contact-component form textarea {
     height: 141px;
+    padding-left: 13.6px;
   }
   .contact-component form .textarea {
     margin-bottom: 14px;
   }
   .contact-component form #form-mail-name, .contact-component form #form-textarea, .contact-component form #form-subject {
-    max-width: 200px;
+    max-width: 281px;
+  }
+  .contact-component form #form-subject {
+    margin-bottom: 9px;
+  }
+  .contact-component form #form-mail-name {
+    gap: 9px;
+    max-width: 279px;
+    margin-right: 3px;
   }
   .contact-component form #form-mail-name .name, .contact-component form #form-mail-name .email {
-    max-width: 200px !important;
+    max-width: 100% !important;
+  }
+  .contact-component form #form-mail-name .email {
+    padding-left: 9px;
   }
   .contact-component .form-btn {
     margin-left: 636px;
+    padding-top: 3px;
+    letter-spacing: -0.8px;
+    padding-right: 3px;
+    word-spacing: 2px;
   }
 }
 footer {
@@ -1199,8 +1313,24 @@ footer .socials img {
   border-radius: 3px;
   background-color: #252525;
 }
+footer .socials img:hover {
+  cursor: pointer;
+  background-color: #46629E;
+}
 footer .socials img:first-child {
   width: 38px;
+}
+footer .socials .fb-icon {
+  padding: 13px;
+}
+footer .socials .be-icon {
+  position: relative;
+  right: 2px;
+  top: 1px;
+}
+footer .socials .deviant-icon {
+  width: 43px;
+  padding: 7px;
 }
 footer .socials .flickr {
   width: 42px;
@@ -1222,19 +1352,41 @@ small {
   footer .location-icon {
     margin-left: 49px;
   }
+  footer .socials {
+    margin-left: -9px;
+  }
 }
 @media (max-width: 767.5px) {
   footer {
     max-width: 320px;
     padding-bottom: 41px;
+    padding-top: 46px;
   }
   footer > img {
-    width: 118.9px;
+    width: 114.9px;
     height: 43.2px;
   }
   footer .socials {
     display: flex;
     flex-direction: column;
-    margin-bottom: 13px;
+    margin-bottom: 26px;
+    margin-left: 0;
+  }
+  footer .socials .be-icon {
+    position: relative;
+    right: 2px;
+    top: 1px;
+  }
+  footer .socials .deviant-icon {
+    width: 43px;
+    position: relative;
+    top: 5px;
+  }
+  footer .socials .flickr {
+    position: relative;
+    top: 5px;
+  }
+  footer small {
+    margin-right: 9px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -1,19 +1,56 @@
 @media (max-width: 767.5px) {
   .portfolio-section {
     max-width: 320px;
+    padding-top: 73px;
     h2 {
-      margin-top: -109px;
-      margin-bottom: 10px;
+      margin-bottom: 9px;
+      font-size: 27px;
     }
 
     #content-icons-resp {
-      padding-bottom: 47px;
+      display: none;
     }
-    #content-footer-resp {
-      font-size: 13px;
+    .mobile-hover-icons {
+      display: flex;
+      gap:6px;
+      margin-top: 44px;
+      img {
+        border: 2px solid $main-green;
+        border-radius: 50%;
+        padding: 7px;
+        width: 27px;
+        height: 27px;
+        &:hover {
+          background-color: $main-green;
+        }
+      }     
     }
+
+ .flex-container {
+  #content-footer-resp {
+    font-size: 13px;
+    .content-footer-header {
+      padding-top: 36px;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: -16px;
+      margin-bottom: 3px;
+      word-spacing: 1px;
+      &::first-letter {
+        visibility: hidden;
+      }
+    }
+    p {
+      font-size: 11px;
+      word-spacing: -0.3px;
+      margin-left:1px;
+    }
+  }
+ }
+
     .portfolio-icon {
       margin-bottom: 33px;
+      margin-left: -5px;
     }
     .flex-container {
       gap: 6px;

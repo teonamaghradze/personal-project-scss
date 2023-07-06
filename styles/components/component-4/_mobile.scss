@@ -1,8 +1,9 @@
 @media (max-width: 767.5px) {
   .services-section {
     max-width: 320px;
+    max-height: 1107px;
     padding: 0;
-    padding-top: 33px;
+    padding-top: 35px;
     padding-bottom: 10px;
     h2 {
       font-size: 27px;
@@ -17,35 +18,97 @@
         }
         .header1 {
           margin-top: -5px;
+          margin-left: -4px;
         }
 
         .header2 {
-          margin-top: -57px;
+          margin-top: -52px;
         }
         .header3 {
-          margin-top: -45px;
+          margin-top: -41px;
         }
 
+        
+
         .icons-txt-flex {
+
+          .header1 + p {
+            margin-left: 4px;
+            word-spacing: 2.5px;
+            letter-spacing: .05px;
+          }
           p {
             font-size: 12.975850105285645px;
             font-weight: 100;
             margin-left: 20px;
             line-height: 1.7;
+            line-height: 1.6;
+            word-spacing: 4px;
+            max-width: 278px;          
           }
         }
 
+       
         .hexagon {
           .main-service-icon {
             transform: scale(1);
           }
+
+          &:nth-child(2) {
+            position: relative;
+            bottom: 46px;
+           }
+  
+        
+         &:nth-child(3) {
+          bottom: 35px;
+          transform: scale(1.04);
+          right: 23px;
+         }
         }
+
+
         &:first-child {
           position: relative;
           right: 58px;
           bottom: 95px;
         }
       }
+
+      .scnd-service-item {
+        
+        .hexagon {
+          position: relative;
+          bottom: 46px;
+          position: relative;
+          bottom: 49px;
+          transform: scale(1.04);
+          right: 21px;
+          
+        }
+
+        .header2 + p {
+        
+          margin-left: 8px ;
+          word-spacing: 2.7px ;
+        }
+      }
+
+      .third-service-item {
+        .hexagon {
+          bottom: 35px;
+          transform: scale(1.04);
+          right: 23px;
+      }
+
+      .header3 + p {  
+        margin-left: 8px;
+        word-spacing: 3.1px;
+        line-height: 22px;
+        max-width: 287px;
+      }
+    }
+    
     }
   }
 }

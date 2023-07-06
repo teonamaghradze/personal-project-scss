@@ -2,14 +2,39 @@
   footer {
     max-width: 320px;
     padding-bottom: 41px;
+    padding-top: 46px;
     > img {
-      width: 118.9px;
+      width: 114.9px;
       height: 43.2px;
     }
     .socials {
       display: flex;
       flex-direction: column;
-      margin-bottom: 13px;
+      margin-bottom: 26px;
+      margin-left: 0;
+
+      .be-icon {
+        position: relative;
+        right: 2px;
+        top: 1px;
+      }
+
+      .deviant-icon {
+        width: 43px;
+        position: relative;
+        top: 5px;
+        
+      }
+      .flickr {
+        position: relative;
+        top: 5px;
+      }
+    }
+
+    small {
+      
+    margin-right: 9px;
+
     }
 
    

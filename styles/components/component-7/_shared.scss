@@ -30,10 +30,31 @@ footer {
       border-width: 1px;
       border-radius: 3px;
       background-color: #252525;
+      &:hover{
+        cursor: pointer;
+        background-color: $socials-bg-blue;
+      }
     }
     img:first-child {
       width: 38px;
     }
+
+    .fb-icon {
+      padding: 13px;
+    }
+
+
+    .be-icon {
+        position: relative;
+        right: 2px;
+        top: 1px;
+      }
+
+      .deviant-icon {
+        width: 43px;
+        padding: 7px;
+      }
+     
    
     .flickr {
       width: 42px;
