@@ -49,11 +49,11 @@
 .features-container {
   grid-template: 1fr 1fr/ 1fr 1fr;
   row-gap: 54px;
-  column-gap: 36px;
+  column-gap: 33px;
 
   .feature {
     display: flex;
-    gap: 27px;
+    gap: 29px;
 
     img {
       background-color: $bg-icon;
@@ -81,8 +81,12 @@
     .location {
       padding-left: 25px;
     }
-    .feature-four {
+    .feature-three {
       margin-right: -3px;
     }
+    .feature-four {
+      margin-right: -2px;
+    }
+
   }
 }

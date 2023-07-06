@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 96px;
+  padding-top: 94px;
   padding-bottom: 122px;
 
   h2 {
@@ -30,23 +30,39 @@
 
   .contact-methods-container {
     display: flex;
-    align-items: center;
-    gap: 180px;
+    // align-items: center;
+    gap: 172px;
+    margin-left: 3px;
+    margin-right: 19px;
     .contact-method {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      // align-items: center;
       margin-bottom: 81px;
 
-      img {
+      .location-icon {
+        width: 26px;
+        margin-left: 53px;
         margin-bottom: 18px;
-        // width: 30px;
       }
+      .mail-icon {
+        width: 30px;
+        margin-left: 56px;
+        margin-top: 6px;
+        margin-bottom: 24px;
+      }
+
+      .hands-icon {
+        width:46px;
+        margin-left: 39px;
+        margin-bottom: 21px;
+      }
+     
 
       p {
         font-family: $big-txts-font;
-        font-size: 15px;
-        font-weight: normal;
+        font-size: 16px;
+        font-weight: 500;
         line-height: 24px;
         font-style: normal;
         text-align: center;
@@ -69,11 +85,13 @@
       border-style: solid;
 
       background: #ffffff;
+      padding-left: 10px;
+      font-size: 14px;
     }
 
     .name-email {
       display: flex;
-      gap: 17px;
+      gap: 16px;
     }
 
     .subject {
@@ -86,6 +104,15 @@
       border-style: solid;
 
       background: #ffffff;
+      padding-left: 10px;
+      font-size: 14px;
+    }
+    textarea {
+      height: 170px;
+      font-size: 17px;
+      letter-spacing: -1.2px;
+      padding-top: 12px;
+      padding-left: 11px;
     }
 
     .textarea {
@@ -93,6 +120,7 @@
       flex-direction: column;
       width: 945px;
       margin-bottom: 17px;
+      
     }
   }
 
@@ -103,5 +131,6 @@
     color: white;
     border: none;
     margin-right: 785px;
+    letter-spacing: -0.5px;
   }
 }
